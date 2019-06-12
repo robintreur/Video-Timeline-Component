@@ -1,0 +1,25 @@
+<body>
+    <main>
+        <div class="c-video" js-video js-video-timeline>
+            <video class="video__preview" autoplay loop muted js-video-preview>
+                <source js-video-preview-file>
+            </video>
+            <label for="video-upload" class="video__upload-button">
+                Click here to upload a video
+            </label>
+            <input class="video__upload" id="video-upload" type="file" name="file[]" class="file_multi_video" accept="video/*" js-video-upload>
+            <div class="c-timeline" js-timeline>
+                <div class="timeline__trim">
+                    <div class="timeline__from" js-timeline-from></div>
+                    <div class="timeline__till" js-timeline-till></div>
+                </div>
+                <div class="timeline__current" js-timeline-current></div>
+            </div>
+            <button class="c-button" js-convert-button>Convert to gif</button>
+        </div>
+        <div class="c-gif is--hidden" js-gif>
+            <img class="gif__image" js-gif-image />
+            <button class="c-button">Upload gif</button>
+        </div>
+    </main>
+</body>
