@@ -5,7 +5,7 @@ With this component you can upload a video, choose a part of the video with the 
 ```
 import VideoTimeline from 'video-timeline.js';
 
-const element = document.querySelector(`[js-video-timeline]`)];
+const element = document.querySelector(`[js-video-timeline]`);
 new VideoTimeline(element);
 ```
 ## Demo
